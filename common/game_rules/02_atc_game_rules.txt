@@ -1,0 +1,5 @@
+﻿atc_height_enabled = {
+	default = atc_height_enabled_true
+	atc_height_enabled_false = {}
+	atc_height_enabled_true = {}
+}

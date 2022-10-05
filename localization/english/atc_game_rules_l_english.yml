@@ -1,0 +1,7 @@
+﻿l_english:
+ rule_atc_height_enabled:0 "#X ATC:#! Height Traits"
+ setting_atc_height_enabled_false:0 "Disabled"
+ setting_atc_height_enabled_false_desc:0 "Do not give height traits to any character at the start of the game."
+ setting_atc_height_enabled_true:0 "#high Enabled#!"
+ setting_atc_height_enabled_true_desc:0 "Every character will get a height trait at the start of the game."
+me."
