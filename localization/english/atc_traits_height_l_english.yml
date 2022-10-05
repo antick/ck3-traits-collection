@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #Physical Traits   ## Originally written by humpty in Dynamic Congenital Heights
+ #Physical Traits
  trait_height_tall:0 "Tall"
  trait_height_average:0 "Average"
  trait_height_short:0 "Short"

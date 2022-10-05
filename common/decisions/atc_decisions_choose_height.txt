@@ -19,7 +19,6 @@ atc_choose_height_decision = {
 			value = yes
 		}
 
-		#Effect Tooltip
 		custom_tooltip = atc_choose_height_decision.1.tt
 		custom_tooltip = atc_choose_height_decision.2.tt
 	}

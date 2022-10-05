@@ -1,5 +1,5 @@
 ﻿l_english:
- #atc Height gamerule
+ # ATC Height Game Rule
  rule_atc_height_enabled:0 "#X More Congenital Traits:#! Height Traits"
  setting_atc_height_enabled_false:0 "Disabled"
  setting_atc_height_enabled_false_desc:0 "Characters will NOT spawn with congenital height traits."
