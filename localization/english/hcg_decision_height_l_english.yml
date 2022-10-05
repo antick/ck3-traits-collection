@@ -1,12 +1,12 @@
 ﻿l_english:
 
  #Decision: choose height
- hcg_choose_height_decision:0 "Choose Your Character's Height"
- hcg_choose_height_decision_desc:0 "This decision leads to an event which gives you a choice:"
- hcg_choose_height_decision_desc_selection_tooltip:0 "Choose your height"
- hcg_choose_height_decision_confirm:0 "Fetch the ruler!"
- hcg_choose_height_decision.1.tt: "You may choose whether or not your current listed height is accurate.\n"
- hcg_choose_height_decision.2.tt: "Alternatively, you may decide that a different height is more fitting."
+ atc_choose_height_decision:0 "Choose Your Character's Height"
+ atc_choose_height_decision_desc:0 "This decision leads to an event which gives you a choice:"
+ atc_choose_height_decision_desc_selection_tooltip:0 "Choose your height"
+ atc_choose_height_decision_confirm:0 "Fetch the ruler!"
+ atc_choose_height_decision.1.tt: "You may choose whether or not your current listed height is accurate.\n"
+ atc_choose_height_decision.2.tt: "Alternatively, you may decide that a different height is more fitting."
 
 
  #Event: choose height

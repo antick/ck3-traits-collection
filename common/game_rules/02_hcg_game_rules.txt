@@ -1,5 +1,0 @@
-﻿hcg_height_enabled = {
-	default = hcg_height_enabled_true
-	hcg_height_enabled_false = {}
-	hcg_height_enabled_true = {}
-}

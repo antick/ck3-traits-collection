@@ -1,0 +1,153 @@
+﻿# atc_seed_height_traits_effect
+
+# atc_remove_height_trait_effect
+# atc_add_height_short_1_effect
+# atc_add_height_short_2_effect
+# atc_add_height_short_3_effect
+# atc_add_height_tall_1_effect
+# atc_add_height_tall_2_effect
+# atc_add_height_tall_3_effect
+# atc_add_height_short_1_effect
+#
+
+# randomly seed inactive height traits
+atc_seed_height_traits_effect = {
+	limit = {
+		NOR = { 
+			has_character_flag = atc_height_traits_seeded 
+			atc_has_any_height_gene_trigger = yes
+		}
+	}
+	if = {
+		limit = { has_character_flag = atc_seed_height_tall_1 }
+		atc_add_height_tall_1_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = atc_seed_height_tall_2 }
+		atc_add_height_tall_2_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = atc_seed_height_tall_3 }
+		atc_add_height_tall_3_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = atc_seed_height_average_1 }
+		atc_add_height_average_1_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = atc_seed_height_short_1 }
+		atc_add_height_short_1_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = atc_seed_height_short_2 }
+		atc_add_height_short_2_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = atc_seed_height_short_3 }
+		atc_add_height_short_3_effect = yes
+	}
+	else_if = {
+		limit = {
+			atc_has_any_height_gene_trigger = no
+		}
+		random_list = {
+			50 = {
+				add_trait = height_average_1
+			}
+			15 = {
+				add_trait = height_short_1
+			}
+			7 = {
+				add_trait = height_short_2
+			}
+			3 = {
+				add_trait = height_short_3
+			}		
+			15 = {
+				add_trait = height_tall_1
+			}
+			7 = {
+				add_trait = height_tall_2
+			}
+			3 = {
+				add_trait = height_tall_3
+			}	
+		}
+	}
+	add_character_flag = atc_height_traits_seeded
+	#make_trait_inactive = height_average_1
+}
+
+# makes average trait invisible
+#atc_hide_average_effect = {}
+
+# So that in Choose your height event there's no trait conflict
+atc_remove_height_trait_effect = {
+	remove_trait = height_short_1
+	remove_trait = height_short_2
+	remove_trait = height_short_3
+	remove_trait = height_tall_1
+	remove_trait = height_tall_2
+	remove_trait = height_tall_3
+	remove_trait = height_average_1
+}
+
+#
+# this series of scripted effects adds height if the game rules are enabled, useful for scripted characters you want to be endowed a certain way
+#
+atc_add_height_tall_1_effect = {
+	if = {
+		limit = { has_game_rule = atc_height_enabled_true }
+		add_trait = height_tall_1
+	}
+	add_character_flag = atc_height_traits_seeded
+}
+
+atc_add_height_tall_2_effect = {
+	if = {
+		limit = { has_game_rule = atc_height_enabled_true }
+		add_trait = height_tall_2
+	}
+	add_character_flag = atc_height_traits_seeded
+}
+
+atc_add_height_tall_3_effect = {
+	if = {
+		limit = { has_game_rule = atc_height_enabled_true }
+		add_trait = height_tall_3
+	}
+	add_character_flag = atc_height_traits_seeded
+}
+
+atc_add_height_average_1_effect = {
+	if = {
+		limit = { has_game_rule = atc_height_enabled_true }
+		add_trait = height_average_1
+	}
+	add_character_flag = atc_height_traits_seeded
+}
+
+atc_add_height_short_1_effect = {
+	if = {
+		limit = { has_game_rule = atc_height_enabled_true }
+		add_trait = height_short_1
+	}
+	add_character_flag = atc_height_traits_seeded
+}
+
+atc_add_height_short_2_effect = {
+	if = {
+		limit = { has_game_rule = atc_height_enabled_true }
+		add_trait = height_short_2
+	}
+	add_character_flag = atc_height_traits_seeded
+}
+
+atc_add_height_short_3_effect = {
+	if = {
+		limit = { has_game_rule = atc_height_enabled_true }
+		add_trait = height_short_3
+	}
+	add_character_flag = atc_height_traits_seeded
+}
+
