@@ -1,7 +1,7 @@
-﻿# atc_has_any_height_gene_trigger
+﻿# hcg_has_any_height_gene_trigger
 
 # returns true if this character has any congenital height trait, active or inactive
-atc_has_any_height_gene_trigger = {
+hcg_has_any_height_gene_trigger = {
 	OR = {
 		has_trait = height_short_1
 		has_trait = height_short_2
