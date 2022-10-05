@@ -114,7 +114,7 @@ height_short_2 = {
 	prowess = -3
 	martial = -2
 	intrigue = 3
-	life_expectancy = 10
+	life_expectancy = 5
 	dread_decay_mult = 0.2
 
 	birth = 0	#handled through script
@@ -168,7 +168,7 @@ height_short_3 = {
 	diplomacy = -1
 	martial = -3
 	intrigue = 6
-	life_expectancy = 15
+	life_expectancy = 10
 	dread_decay_mult = 0.4
 
 
@@ -273,7 +273,7 @@ height_tall_2 = {
 	prowess = 3
 	martial = 3
 	intrigue = -4
-	life_expectancy = -10
+	life_expectancy = -5
 	monthly_prestige_gain_mult = 0.2
 	dread_gain_mult = 0.2
 
@@ -326,7 +326,7 @@ height_tall_3 = {
 	prowess = 5
 	martial = 4
 	intrigue = -6
-	life_expectancy = -15
+	life_expectancy = -10
 	monthly_prestige_gain_mult = 0.4
 	dread_gain_mult = 0.4
 
@@ -336,8 +336,6 @@ height_tall_3 = {
 	attraction_opinion = -5
 	vassal_opinion = 20
 	tribal_government_opinion = 30
-
-	flag = higher_chance_of_dying_in_battle
 
 	group = height_tall
 	level = 3
