@@ -33,7 +33,6 @@ height_average_1 = {
 		dwarf = @pos_compat_low
 		height_tall_1 = @pos_compat_low
 		height_tall_2 = @pos_compat_low
-		height_tall_3 = @pos_compat_low
 		giant = @pos_compat_low
 	}
 
@@ -214,7 +213,6 @@ height_tall_1 = {
 		height_average
 		height_short
 		height_tall_2 #To prevent multiple tiers of the same congenital trait
-		height_tall_3 
 		dwarf
 		giant
 	}
@@ -265,7 +263,6 @@ height_tall_2 = {
 		height_average
 		height_short
 		height_tall_1 #To prevent multiple tiers of the same congenital trait
-		height_tall_3
 		dwarf
 		giant
 	}
@@ -308,57 +305,6 @@ height_tall_2 = {
 				desc = trait_height_tall_2_desc
 			}
 			desc = trait_height_tall_2_character_desc
-		}
-	}
-}
-
-# Height (3) - Enormous
-height_tall_3 = {
-	opposites = {
-		height_average
-		height_short
-		height_tall_1 #To prevent multiple tiers of the same congenital trait
-		height_tall_2
-		dwarf
-		giant
-	}
-
-	prowess = 5
-	martial = 4
-	intrigue = -6
-	life_expectancy = -10
-	monthly_prestige_gain_mult = 0.4
-	dread_gain_mult = 0.4
-
-	birth = 0 	# Handled through script
-	random_creation = 0 # Handled through script
-
-	attraction_opinion = -5
-	vassal_opinion = 20
-	tribal_government_opinion = 30
-
-	group = height_tall
-	level = 3
-
-	genetic = yes
-	physical = yes
-	good = yes
-
-	genetic_constraint_all = tall_3
-	genetic_constraint_men = male_tall_3
-	genetic_constraint_women = female_tall_3
-
-	ruler_designer_cost = 180
-
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_height_tall_3_desc
-			}
-			desc = trait_height_tall_3_character_desc
 		}
 	}
 }
@@ -408,22 +354,26 @@ giant = {
 	}
 
 	prowess = 6
+	martial = 4
+	intrigue = -6
 	health = -0.25
 	life_expectancy = -20
+	dread_gain_mult = 0.4
 
 	genetic = yes
 	physical = yes
+	good = no
 
 	enables_inbred = yes
 	birth = 0.5
 	random_creation = 0.5
 	
-	attraction_opinion = -5
-	tribal_government_opinion = 40
-	vassal_opinion = 5
+	attraction_opinion = -10
+	tribal_government_opinion = 30
+	vassal_opinion = 10
 	same_opinion = 20
 	
-	ruler_designer_cost = 20
+	ruler_designer_cost = 60
 
 	desc = {
 		first_valid = {

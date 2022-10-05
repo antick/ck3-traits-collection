@@ -13,11 +13,7 @@
  trait_height_tall_2_desc:0 "This character is often the first to be seen in a group of people of their gender, and is naturally a bit stronger than most, but has a very hard time sneaking about unnoticed."
  trait_height_tall_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is often the first to be seen in a group of people of their gender, but has a very hard time sneaking about unnoticed."
 
- trait_height_tall_3:0 "Enormous"
- trait_height_tall_3_desc:0 "This character is extremely tall, often scaring and intimidating diplomats and solidiers alike. They also possess a natural strength much greater than most, but it is basically impossible for them to sneak about unnoticed."
- trait_height_tall_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is extremely tall, often scaring and intimidating diplomats and solidiers alike. They also possess a natural strength much greater than most, but it is basically impossible for them to sneak about unnoticed."
-
- trait_height_average_1:0 "Average Stature"
+  trait_height_average_1:0 "Average Stature"
  trait_height_average_1_desc:0 "This character is of average height for their gender."
  trait_height_average_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is of average height for their gender."
 

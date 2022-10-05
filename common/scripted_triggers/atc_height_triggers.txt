@@ -8,7 +8,6 @@ atc_has_any_height_gene_trigger = {
 		has_trait = height_short_3
 		has_trait = height_tall_1
 		has_trait = height_tall_2
-		has_trait = height_tall_3
 		has_trait = height_average_1
 		has_trait = giant
 		has_trait = dwarf

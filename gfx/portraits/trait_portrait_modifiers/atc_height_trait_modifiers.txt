@@ -113,30 +113,6 @@
 		}
 	}
 
-	enormous = {
-		traits = { height_tall_3 }
-		dna_modifiers = {
-			morph = {
-				mode = modify
-				gene = gene_forehead_height		# Excess of growth hormone
-				template = forehead_height_neg
-				value = -0.15
-			}
-			morph = {
-				mode = modify
-				gene = gene_head_height			# Excess of growth hormone
-				template = head_height_pos
-				value = 0.15
-			}
-			morph = {
-				mode = modify_multiply
-				gene = gene_height
-				template = enormous_height		# male approx. 6'7 to 7'6
-				value = 0
-			}
-		}
-	}
-
 	towering = {
 		traits = { height_tall_2 }
 		dna_modifiers = {

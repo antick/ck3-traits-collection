@@ -37,7 +37,6 @@ height_gene_distribution.1 = {
 		remove_trait = height_short_3
 		remove_trait = height_tall_1
 		remove_trait = height_tall_2
-		remove_trait = height_tall_3
 		remove_trait = height_average_1
 		remove_trait = dwarf
 		remove_trait = giant
@@ -92,14 +91,6 @@ height_gene_distribution.2 = {
 		name = height_gene_distribution.2.tall_2
 		custom_tooltip = height_gene_distribution.2.tall_2.tooltip
 		add_trait = height_tall_2
-		ai_chance = 0
-	}
-
-	#Choose Tall height 3
-	option = {
-		name = height_gene_distribution.2.tall_3
-		custom_tooltip = height_gene_distribution.2.tall_3.tooltip
-		add_trait = height_tall_3
 		ai_chance = 0
 	}
 

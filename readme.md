@@ -9,18 +9,23 @@ Collection of traits for CK3.
 Source: https://steamcommunity.com/sharedfiles/filedetails/?id=2707217128
 
 I have made following fixes in the above mod:
-1. Fixed an issue with Enormous trait where it was so extreme that it turned the characters into a Slender Man.
-2. Removed the **Likelihood of dying in Battle** attribute from the Enormous trait.
+1. Removed the Enormous Trait and tweaked Giant to be used for the same.
+2. Fixed the Slender-Man Characters issue with Towering and Enormous/Giant Trait.
+3. Removed the **Likelihood of dying in Battle** attribute from the Enormous/Giant trait.
 
 Here are the features of this mod:
-1. Adds seven different traits for character's height.
+1. Adds six different traits for character's height and also tweaks the Giant attribute to make them tallest.
 2. Allows player to use a one time decision to change their height.
 3. Height traits will be distributed to all the characters at the start of the game.
 
+## Incompatibility
+
+This mod is incompatible with any mod that adds or modifies the height or Giant trait.
+
+Please let me know about the other incompatible mods so I can either include them in this or create a patch for them.
+
 ## TODO
-- Put Giant and Dwarf traits in line with the Height trait otherwise these two traits are not making any sense anymore. Typically a giant should be tallest and a dwarf should be the smallest.
 - Remove Diminutive trait as the dwarf trait should suffice for that.
-- Remove the Enormous trait and use those genes for the Giant trait. This will also make it a rare trait and not every third person would have it.
 
 ## FAQ
 
