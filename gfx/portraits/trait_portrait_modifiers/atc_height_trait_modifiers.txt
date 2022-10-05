@@ -172,16 +172,4 @@
 			}
 		}
 	}
-
-	tiny = {
-		traits = { height_short_3 }
-		dna_modifiers = {
-			morph = {
-				mode = modify_multiply
-				gene = gene_height
-				template = tiny_height			# male approx. 4'3 to 4'6
-				value = 0
-			}
-		}
-	}
 }

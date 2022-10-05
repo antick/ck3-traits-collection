@@ -91,10 +91,10 @@
         }
        
         towering_height = { 
-            index = 4
+            index = 3
             male = { 
                 setting = { attribute = "body_height" value = { min = 0.35 max = 0.5 } age = age_preset_height } 
-                setting = { attribute = "head_body_height" value = { min = 0.45 max = 0.6 } age = age_preset_height }
+                setting = { attribute = "head_body_height" value = { min = 0.3 max = 0.5 } age = age_preset_height }
             }
             female = male
             boy = male
@@ -102,7 +102,7 @@
         }
         
         tall_height = { 
-            index = 5
+            index = 4
             male = { 
                 setting = { attribute = "body_height" value = { min = 0.25 max = 0.4 } age = age_preset_height } 
                 setting = { attribute = "head_body_height" value = { min = 0.2 max = 0.3 } age = age_preset_height } 
@@ -115,7 +115,7 @@
         }
 
         average_height = { 
-            index = 6 
+            index = 5
             male = { 
                 setting = { attribute = "body_height" value = { min = 0 max = 0.20 } age = age_preset_height  } 
                 setting = { attribute = "head_body_height" value = { min = -0.1 max = 0.1 } age = age_preset_height } 
@@ -126,7 +126,7 @@
         }
 
         short_height = { 
-            index = 7
+            index = 6
             male = { 
                 setting = { attribute = "body_height" value = { min = -0.10 max = -0.05 } age = age_preset_height } 
                 setting = { attribute = "head_body_height" value = { min = -0.25 max = -0.2 } age = age_preset_height }
@@ -137,7 +137,7 @@
         }
 
         small_height = {
-            index = 8
+            index = 7
             male = { 
                 setting = { attribute = "body_height" value = { min = -0.20 max = -0.15 } age = age_preset_height } 
                 setting = { attribute = "head_body_height" value = { min = -0.30 max = -0.25 } age = age_preset_height } 
@@ -146,16 +146,5 @@
             boy = male
             girl = male
         }
-
-        tiny_height = {
-            index = 9
-            male = { 
-               setting = { attribute = "body_height" value = { min = -0.30 max = -0.25 } age = age_preset_height } 
-               setting = { attribute = "head_body_height" value = { min = -0.45 max = -0.30 } age = age_preset_height } 
-            }
-           female = male
-           boy = male
-           girl = male
-       }
     }
 }

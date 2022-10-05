@@ -34,7 +34,6 @@ height_gene_distribution.1 = {
 		custom_tooltip = height_gene_distribution.1.choose_new.tooltip
 		remove_trait = height_short_1
 		remove_trait = height_short_2
-		remove_trait = height_short_3
 		remove_trait = height_tall_1
 		remove_trait = height_tall_2
 		remove_trait = height_average_1
@@ -117,14 +116,5 @@ height_gene_distribution.2 = {
 		add_trait = height_short_2
 		ai_chance = 0
 	}
-
-	#Choose Short height 3
-	option = {
-		name = height_gene_distribution.2.short_3
-		custom_tooltip = height_gene_distribution.2.short_3.tooltip
-		add_trait = height_short_3
-		ai_chance = 0
-	}
-
 }
 

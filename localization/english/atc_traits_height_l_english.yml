@@ -24,7 +24,3 @@
  trait_height_short_2:0 "Small"
  trait_height_short_2_desc:0 "This character is often the last to be seen in a group of people of their gender, and is naturally weaker than most, but but it is much easier for them to sneak about unnoticed."
  trait_height_short_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is often the last to be seen in a group of people of their gender, and is naturally weaker than most, but it is much easier for them to sneak about unnoticed."
-
- trait_height_short_3:0 "Diminutive"
- trait_height_short_3_desc:0 "This character is extremely short, often leading to a lack of respect and obedience from those who dont know them. They also possess a natural strength much weaker than most, but have a very easy time sneaking about undetected."
- trait_height_short_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is extremely short, often leading to a lack of respect and obedience from those who dont know them. They also possess a natural strength much weaker than most, but have a very easy time sneaking about undetected."

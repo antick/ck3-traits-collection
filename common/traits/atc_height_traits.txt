@@ -29,7 +29,6 @@ height_average_1 = {
 	compatibility = {
 		height_short_1 = @pos_compat_low
 		height_short_2 = @pos_compat_low
-		height_short_3 = @pos_compat_low
 		dwarf = @pos_compat_low
 		height_tall_1 = @pos_compat_low
 		height_tall_2 = @pos_compat_low
@@ -54,8 +53,7 @@ height_short_1 = {
 	opposites = {
 		height_average
 		height_tall
-		height_short_2 #To prevent multiple tiers of the same congenital trait
-		height_short_3
+		height_short_2
 		dwarf
 		giant
 	}
@@ -104,8 +102,7 @@ height_short_2 = {
 	opposites = {
 		height_average
 		height_tall
-		height_short_1 #To prevent multiple tiers of the same congenital trait
-		height_short_3
+		height_short_1
 		dwarf
 		giant
 	}
@@ -148,61 +145,6 @@ height_short_2 = {
 				desc = trait_height_short_2_desc
 			}
 			desc = trait_height_short_2_character_desc
-		}
-	}
-}
-
-# Height (-3) - Diminutive
-height_short_3 = {
-	opposites = {
-		height_average
-		height_tall
-		height_short_1 #To prevent multiple tiers of the same congenital trait
-		height_short_2
-		dwarf
-		giant
-	}
-
-	prowess = -5
-	diplomacy = -1
-	martial = -3
-	intrigue = 6
-	life_expectancy = 10
-	dread_decay_mult = 0.4
-
-
-	birth = 0	#handled through script
-	random_creation = 0	#handled through script
-
-	attraction_opinion = -15
-
-	owned_scheme_secrecy_add = 20
-	hostile_scheme_power_mult = 0.40
-	hostile_scheme_resistance_add = 30
-
-	group = height_short
-	level = 3
-
-	genetic = yes
-	physical = yes
-
-	genetic_constraint_all = short_3
-	genetic_constraint_men = male_short_3
-	genetic_constraint_women = female_short_3
-
-	flag = lower_chance_of_dying_in_combat
-
-	ruler_designer_cost = -45
-
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_height_short_3_desc
-			}
-			desc = trait_height_short_3_character_desc
 		}
 	}
 }
@@ -311,7 +253,14 @@ height_tall_2 = {
 
 # Dwarfism
 dwarf = {
-	prowess = -4
+	prowess = -5
+	diplomacy = -5
+	martial = -5
+	intrigue = 6
+
+	life_expectancy = 10
+	dread_decay_mult = 0.4
+
 	opposites = {
 		giant
 		height_tall
@@ -321,12 +270,17 @@ dwarf = {
 
 	genetic = yes
 	physical = yes
+	good = no
 
 	enables_inbred = yes
 	birth = 0.5
 	random_creation = 0.5
 	
-	attraction_opinion = -20
+	owned_scheme_secrecy_add = 20
+	hostile_scheme_power_mult = 0.40
+	hostile_scheme_resistance_add = 30
+
+	attraction_opinion = -30
 	same_opinion = 20
 	
 	ruler_designer_cost = 0

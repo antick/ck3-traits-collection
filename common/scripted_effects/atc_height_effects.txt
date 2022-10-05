@@ -3,7 +3,6 @@
 # atc_remove_height_trait_effect
 # atc_add_height_short_1_effect
 # atc_add_height_short_2_effect
-# atc_add_height_short_3_effect
 # atc_add_height_tall_1_effect
 # atc_add_height_tall_2_effect
 # atc_add_height_short_1_effect
@@ -38,10 +37,6 @@ atc_seed_height_traits_effect = {
 		atc_add_height_short_2_effect = yes
 	}
 	else_if = {
-		limit = { has_character_flag = atc_seed_height_short_3 }
-		atc_add_height_short_3_effect = yes
-	}
-	else_if = {
 		limit = {
 			atc_has_any_height_gene_trigger = no
 		}
@@ -52,13 +47,10 @@ atc_seed_height_traits_effect = {
 			15 = {
 				add_trait = height_short_1
 			}
-			7 = {
+			5 = {
 				add_trait = height_short_2
 			}
-			3 = {
-				add_trait = height_short_3
-			}		
-			15 = {
+			20 = {
 				add_trait = height_tall_1
 			}
 			5 = {
@@ -77,7 +69,6 @@ atc_seed_height_traits_effect = {
 atc_remove_height_trait_effect = {
 	remove_trait = height_short_1
 	remove_trait = height_short_2
-	remove_trait = height_short_3
 	remove_trait = height_tall_1
 	remove_trait = height_tall_2
 	remove_trait = height_average_1
@@ -122,14 +113,6 @@ atc_add_height_short_2_effect = {
 	if = {
 		limit = { has_game_rule = atc_height_enabled_true }
 		add_trait = height_short_2
-	}
-	add_character_flag = atc_height_traits_seeded
-}
-
-atc_add_height_short_3_effect = {
-	if = {
-		limit = { has_game_rule = atc_height_enabled_true }
-		add_trait = height_short_3
 	}
 	add_character_flag = atc_height_traits_seeded
 }
